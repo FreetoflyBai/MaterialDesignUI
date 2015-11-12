@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/drawer_header"
+        android:paddingLeft="20dp">
+
+        <map.karen.com.materialdesignui.view.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/user_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_above="@id/profileEmail"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

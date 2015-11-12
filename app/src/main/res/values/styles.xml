@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- ToolBar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/pink</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <!--API21 drawerLayout fullscreen <item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <!-- ActionBar -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/bule</item>
+        <item name="background">@color/bule</item>
+    </style>-->
+
+
+    <!--TextInputLayout -->
+    <style name="TextInputLayout" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+
+
+</resources>

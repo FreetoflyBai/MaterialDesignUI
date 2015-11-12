@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <com.andexert.library.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ripple"
+            android:background="@color/blue"/>
+
+    </com.andexert.library.RippleView>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TextInputLayout"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <EditText
+            android:id="@+id/et_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TextInputLayout include Edittext"
+            android:textColorHint="@color/blue"
+            android:singleLine="true"
+            android:textColor="@color/gray"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</LinearLayout>

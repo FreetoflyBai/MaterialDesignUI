@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_recyclerview"
+            android:icon="@mipmap/ic_launcher"
+            android:orderInCategory="100"
+            android:title="RecyclerView"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_floatingactionbutton"
+            android:icon="@mipmap/ic_launcher"
+            android:orderInCategory="100"
+            android:title="FloatingActionButton"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_slidingpanelayout"
+            android:icon="@mipmap/ic_launcher"
+            android:orderInCategory="100"
+            android:title="SlidingPaneLayout"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_swiperefresh"
+            android:icon="@mipmap/ic_launcher"
+            android:orderInCategory="100"
+            android:title="SwipeRefresh"
+            app:showAsAction="never" />
+
+    </group>
+</menu>
